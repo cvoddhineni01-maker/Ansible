@@ -1,5 +1,7 @@
 - name: ping the server
   hosts: frontend #Which server we are connecting
+
+  #List of tasks or module 
   
   tasks:
     - name: Run Ansible ping module
