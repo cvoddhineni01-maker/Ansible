@@ -1,5 +1,5 @@
 - name: ping the server
-  hosts: 50.17.121.73 #Which server we are connecting
+  hosts: frontend #Which server we are connecting
   
   tasks:
     - name: Run Ansible ping module
