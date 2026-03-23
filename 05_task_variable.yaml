@@ -6,7 +6,7 @@
     Duration: 120 hrs
     Trainers: Shiva
   tasks:
-    Course: Ansible
-  - name: print the course info
-    ansible.builtin.debug:
+    - name: print the course info
+      Course: Ansible
+      ansible.builtin.debug:
       msg: "Course name is: {{ Course }} , Duration is: {{ Duration }} , Trainer is: {{Trainers}}"
