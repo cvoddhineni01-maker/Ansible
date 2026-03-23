@@ -1,0 +1,21 @@
+- name: this is multiplay play-01
+  hosts : frontend
+  tasks:
+    - name: Play-01 and Task-01 
+      ansible.builtin.debug:
+        msg: "Hello from play 01 and task 01"
+  
+    - name: Play-01 and Task-02 
+      ansible.builtin.debug:
+        msg: "Hello from play 01 and task 01"
+
+- name: this is multiplay play-02
+  hosts : frontend
+  tasks:
+    - name: Play-02 and Task-01
+      ansible.builtin.debug:
+        msg: "Hello from play 01 and task 01"
+
+    - name: Play-02 and Task-02 
+      ansible.builtin.debug:
+        msg: "Hello from play 01 and task 01"
