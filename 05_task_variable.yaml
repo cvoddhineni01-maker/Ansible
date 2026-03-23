@@ -1,6 +1,6 @@
-- name: play level variables
+- name: task level variables
   hosts: localhost
-  connection: localhost
+  connection: local
   vars: 
     Course: AWS with Devops
     Duration: 120 hrs
