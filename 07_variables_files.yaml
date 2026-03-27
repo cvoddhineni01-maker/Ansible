@@ -1,0 +1,7 @@
+- name: varibles from files
+  host: localhost
+  connection: local
+  tasks: 
+    - name: Ansible Course
+      ansible.builtin.debug:
+      msg: "Course name is: {{ Course }}"
