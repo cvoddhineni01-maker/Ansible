@@ -1,5 +1,5 @@
 - name: varibles from files
-  host: localhost
+  hosts: localhost
   connection: local
   vars_files: 
   - Course.yaml

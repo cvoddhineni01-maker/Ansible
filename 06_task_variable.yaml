@@ -2,6 +2,9 @@
   hosts: localhost
   connection: local
   vars: #Play level Variables
+    Course: Devops with AWS
+    Duration: 7HRS
+    Trainer: Dev Guru
   tasks:
   - name: print course
     vars: #Task level variables
