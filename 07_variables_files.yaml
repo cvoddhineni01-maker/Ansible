@@ -5,6 +5,6 @@
   - course.yaml
   tasks: 
     - name: Ansible Course
-      course: AWS
+        Course: AWS
       ansible.builtin.debug:
         msg: "Course name is: {{ Course }}"
