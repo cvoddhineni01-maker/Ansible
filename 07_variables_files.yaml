@@ -11,3 +11,9 @@
         Course: "AWS"
       ansible.builtin.debug:
         msg: "Course name is: {{ Course }}"
+
+    - name: Ansible Course
+      vars:
+        Course: "AWS"
+      ansible.builtin.debug:
+        msg: "Course name is: {{ Course }}" 
