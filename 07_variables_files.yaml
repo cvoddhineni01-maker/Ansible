@@ -6,4 +6,4 @@
   tasks: 
     - name: Ansible Course
       ansible.builtin.debug:
-      msg: "Course name is: {{ Course }}"
+        msg: "Course name is: {{ Course }}"
