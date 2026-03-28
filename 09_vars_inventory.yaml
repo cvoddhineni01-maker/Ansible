@@ -1,0 +1,9 @@
+- name: Reading variables from inventory
+  hosts: localhost
+  connection: local
+  tasks:
+    - name: Ansible Course
+      vars:
+        #Course: "AWS"
+      ansible.builtin.debug:
+        msg: "username name is: {{ Trainer }}, password is {{ Courseduration }}"
