@@ -4,12 +4,12 @@
   vars_prompt: 
     - name: username
       prompt: "whats the username?"
-      private: false
+      private: true
 
   tasks:
     - name: Ansible Course
       vars:
         #Course: "AWS"
       ansible.builtin.debug:
-        msg: "username name is: {{ username }}"
+        msg: "username name is: {{ username }}, password is {{ password }}"
  
