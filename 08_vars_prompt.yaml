@@ -2,9 +2,8 @@
   hosts: localhost
   connection: local
   vars_prompt: 
-    vars_prompt:
     - name: username
-      prompt: "whats the username"
+      prompt: "whats the username?"
       private: false
 
   tasks:
