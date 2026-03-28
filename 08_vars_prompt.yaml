@@ -1,0 +1,16 @@
+- name: variables from promt 
+  hosts: localhost
+  connection: local
+  vars_prompt: 
+    vars_prompt:
+    - name: "username"
+      prompt: "whats the username"
+      private: false
+
+  tasks:
+    - name: Ansible Course
+      vars:
+        #Course: "AWS"
+      ansible.builtin.debug:
+        msg: "username name is: {{ username }}"
+ 

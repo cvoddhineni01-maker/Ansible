@@ -17,3 +17,5 @@
         Course: "AWS"
       ansible.builtin.debug:
         msg: "Course name is: {{ Course }}" 
+
+        #ansible-playbook -i inventory.ini -e ansible_user=ec2-user -e ansible_password=Devops321 07_variables_files.yaml
