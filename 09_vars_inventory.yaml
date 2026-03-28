@@ -1,6 +1,7 @@
 - name: Reading variables from inventory
-  hosts: localhost
+  hosts: local
   connection: local
+
   tasks:
     - name: Ansible Course
       vars:
