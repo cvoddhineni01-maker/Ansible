@@ -7,4 +7,4 @@
       ansible.builtin.dnf:
         name: nginx
         state: latest
-      when: ansibile_os_family == "RedHat"
+  #when: ansibile_os_family == "RedHat"
