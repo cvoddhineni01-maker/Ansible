@@ -1,0 +1,13 @@
+- name: loops
+  hosts: local
+  connection: local
+  tasks:
+    name: Print names
+    Ansible.builtin.debug:
+     msg: "Hello {{ item }}"
+    loop:
+    - Sachin
+    - Virat
+    - Yuvi
+
+    #Item is an reserve keyword here which stores value 

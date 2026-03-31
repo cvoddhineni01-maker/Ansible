@@ -8,3 +8,4 @@
         name: nginx
         state: latest
   #when: ansibile_os_family == "RedHat"
+  #use ansibile_ (While referening to the facts)
