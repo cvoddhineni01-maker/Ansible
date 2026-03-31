@@ -6,8 +6,8 @@
      Ansible.builtin.debug:
      msg: "Hello {{ item }}"
      loop:
-    - Sachin
-    - Virat
-    - Yuvi
+      - Sachin
+      - Virat
+      - Yuvi
 
     #Item is an reserve keyword here which stores value 
