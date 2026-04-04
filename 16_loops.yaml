@@ -3,7 +3,7 @@
   connection: local
   tasks:
    - name: Print names
-     ansible.builtin.packages:
+     ansible.builtin.package:
       msg: "Hello {{ item }}"
       state: latest
      loop:
