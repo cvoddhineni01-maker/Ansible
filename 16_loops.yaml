@@ -1,0 +1,12 @@
+- name: loops using packages
+  hosts: local
+  connection: local
+  tasks:
+   - name: Print names
+     ansible.builtin.packages:
+      msg: "Hello {{ item }}"
+      state: latest
+     loop:
+      - nginx
+      - git
+      - mysql
