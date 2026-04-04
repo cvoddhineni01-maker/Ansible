@@ -5,7 +5,7 @@
   tasks:
    - name: Print names
      ansible.builtin.package:
-      name: "Hello {{ item }}"
+      name: "{{ item }}"
       state: latest
      loop:
       - nginx
