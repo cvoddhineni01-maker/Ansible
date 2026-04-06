@@ -15,5 +15,5 @@
      msg: "Course name: {{Course}}, tools name is: {{tools}}"
 
 
-#list: []
-#map: {}
+#list: [] ['Devops', 'Linux']
+#map: {} "{devops, linux}""
